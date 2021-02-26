@@ -1,0 +1,96 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    min-width: 700px;
+}
+
+.top{
+    width: 80%;
+    height: 100px;
+    margin: 30px auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+.top > div {
+    align-self: flex-end;
+    height: 50%;
+    margin: 0 !important;
+    position: relative;
+    top: 35px;
+
+}
+ 
+button {
+    height: 35px;
+    width: 35px;
+    background-color: rgb(66, 173, 243);
+    border: 2px solid gray;
+}
+p {
+    font-size: 55px;
+    color: rgb(67, 62, 180);
+    font-weight: bold;
+}
+table {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto 20px;
+    text-align:center;
+    padding: 10px;
+    border-spacing: 4px;
+    border-collapse: separate;
+    font-weight: bold;
+    font-size: 30px;
+}
+ 
+
+td:nth-child(1), th {
+    background-color: rgb(66, 173, 243);
+}
+
+td:nth-child(1) {
+    color: rgb(101, 152, 171);
+
+}
+
+/* tr:nth-child(1) > td:not(:nth-child(1)),
+tr:last-child > td:nth-child(n+4){
+    background-color: rgb(215, 241, 242);
+} */
+
+
+
+td {
+    background-color: rgb(112, 211, 250);
+}
+
+
+.empty {
+    background-color: rgb(215, 241, 242);
+}
+
+td , th{
+    width: 96px;
+    height: 75px;
+}
+
+
+
+tr {
+    padding: 5px; 
+    border-spacing: 2px;
+    border-collapse: separate;
+}
